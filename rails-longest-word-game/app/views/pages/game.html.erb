@@ -1,0 +1,18 @@
+<!-- <h1>Pages#game</h1>
+<p>Find me in app/views/pages/game.html.erb</p> -->
+<div class="text-center">
+  <div class="banner">
+    <h1>Welcome to the longest-word game !</h1>
+  </div>
+    <h2>Here is your grid:</h2>
+    <%= @grid %>
+    <% tgrid = @grid.join %>
+
+    <form action="/score" method="post">
+      <label for="question">Type your answer here</label>
+      <input type="text" id="question" name="answer" placeholder="answer?">
+      <input type="hidden" name="grid" value= "<%= tgrid %>">
+      <input type="hidden" name="time_start" value= "<%= Time.now().to_i %>"
+      <input type="submit" value="Go on!">
+    </form>
+</div>

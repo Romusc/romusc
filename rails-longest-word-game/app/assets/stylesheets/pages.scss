@@ -1,0 +1,26 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: #ede1ef;
+  // background-color: blue;
+}
+
+.banner {
+  height: 20vh;
+  margin: 10vh;
+}
+
+.row {
+  height: 200px;
+  border: 1px black;
+}
+
+.answer {
+  background: #e0d5e5;
+  height: 200px;
+  padding-top: 100px;
+  border-radius: 20px;
+  margin: 20px;
+}
