@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Numo | Documentation </title>
+    <!-- CSS -->
+    <!--===============================================================-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/doc.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="text-center title-lead">GET STARTED</h1>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container container-doc">
+      <div class="row">
+        <div class="col-sm-2 col-sm-offset-1">
+          <h2 class="title-small">Logo</h2>
+        </div>
+        <div class="col-sm-6 col-sm-offset-1">
+          <p>To change the logo, replace the "logo.png" in the images folder<br>
+          Default logo size 108x52 px, as you scroll down the page, the navbar shrinks and logo becomes smaller.
+          <br>
+          .navbar gets .tiny class when you scroll down. You should change the default width values to match your logos width.
+          </p>
+          <h4>NAVBAR DEFAULT</h4>
+          <pre>.navbar-brand img { 
+    width:<span>108px</span>;
+  }       </pre>
+
+          <h4>NAVBAR SHRINKED</h4>
+          <pre>.navbar-tiny .navbar-brand img { 
+    width:<span>86px</span>;
+  }       </pre>
+        </div>
+      </div>
+
+
+
+
+      <div class="row margin-top-doc">
+        <div class="col-sm-2 col-sm-offset-1">
+          <h2 class="title-small">Portfolio</h2>
+        </div>
+        <div class="col-sm-6 col-sm-offset-1">
+          <p>
+          You should upload two images for each portfolio item
+          </p>
+          <ol>
+            <li class="red">LIGHTBOX (big version of the image)</li>
+            <li class="green">THUMBNAIL (small version of the image)</li>
+          </ol>
+
+  <pre class="margin-top-20">
+  &lt;a class="lightbox wrapper-portfolio" href="<span class="red">images/640x480.gif</span>"&gt;
+    &lt;img class="img-responsive" src="<span class="green">images/320x340.gif</span>" alt="portfolio"&gt;
+    &lt;h3 class="category">Web Design&lt;/h3&gt;
+  &lt;/a&gt;
+  </pre>
+
+        </div>
+      </div>
+
+
+
+
+
+      <div class="row margin-top-doc">
+        <div class="col-sm-2 col-sm-offset-1">
+          <h2 class="title-small">Skills</h2>
+        </div>
+        <div class="col-sm-6 col-sm-offset-1">
+          <p>
+          You can change the skill values by editing the values below
+          </p>
+
+  <pre>&lt;div class="progress-bar" role="progressbar" aria-valuenow="<span class="red">90</span>" aria-valuemin="0" aria-valuemax="100" style="width:<span class="red">90%</span>"&gt;
+  </pre>
+
+        </div>
+      </div>
+
+
+
+
+      <div class="row margin-top-doc">
+        <div class="col-sm-2 col-sm-offset-1">
+          <h2 class="title-small">Services</h2>
+        </div>
+        <div class="col-sm-6 col-sm-offset-1">
+          <p>
+          Service section uses Font Awesome icons so you can select any icons from this list <a href="http://http://fortawesome.github.io/Font-Awesome/icons/"><span class="green">Font Awesome Icons</span></a>
+          </p>
+
+  <pre>&lt;i class="fa <span class="red">fa-code</span> fa-4x"&gt;&lt;/i&gt;
+  </pre>
+
+        </div>
+      </div>
+
+
+
+      <div class="row margin-top-doc">
+        <div class="col-sm-2 col-sm-offset-1">
+          <h2 class="title-small">Contact</h2>
+        </div>
+        <div class="col-sm-6 col-sm-offset-1">
+          <p>
+          Replace the example e-mail with your e-mail address
+          </p>
+
+  <pre>&lt;a href="mailto:<span class="red">example@example.com"</span> class="mail"&gt;&lt;span class="glyphicon glyphicon-envelope"&gt;&lt;/span&gt;E-MAIL&lt;/a&gt;
+  </pre>
+
+        </div>
+      </div>
+
+
+
+      <div class="row margin-top-doc">
+        <div class="col-sm-2 col-sm-offset-1">
+          <h2 class="title-small">Social</h2>
+        </div>
+        <div class="col-sm-6 col-sm-offset-1">
+          <p>
+          Add your social network urls
+          </p>
+
+  <pre>&lt;a href="<span class="red">http://example.com</span>"&gt;&lt;i class="fa fa-facebook"&gt;&lt;/i&gt;&lt;/a&gt;
+  </pre>
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+      <!-- FOOTER-->
+      <!--===============================================================-->
+      <div class="bg-footer">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-12">
+              <a href="http://facebook.com/mamootstudio"><i class="fa fa-facebook"></i></a>
+              <a href="http://twitter.com/mamootstudio"><i class="fa fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER-BOTTOM-->
+      <!--===============================================================-->
+      <div class="bg-footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="copyright text-center">2014 &copy; Mamoot Studio - All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+  </body>
+</html>

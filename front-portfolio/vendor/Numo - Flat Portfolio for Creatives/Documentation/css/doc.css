@@ -1,0 +1,136 @@
+body {
+  padding-top:60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-doc hr {
+	margin-left:0px;
+	margin-top:10px;
+	width:80px;
+}
+
+.container-doc h4 {
+	margin-top:30px;
+	margin-bottom:16px;
+}
+.title-lead {
+  color:#1BBC9B;
+  font-size:60px;
+}
+
+.container-doc {
+  margin-top:80px;
+}
+.title-small {
+  margin:0;
+  color:#22313F;
+}
+
+.container-doc p {
+	line-height:28px;
+	font-size:16px;
+	margin-top:8px;
+}
+
+.margin-top-doc {
+	margin-top:110px;
+}
+
+.margin-top-20 {
+	margin-top:20px;
+}
+
+pre span {
+	color:red;
+}
+.container-doc ol {
+	margin-top:16px;
+}
+
+.container-doc ol li {
+	margin-bottom:10px;
+}
+
+.red {
+	color:#E26A6A;
+}
+
+.green {
+	color:#1BBC9B;
+}
+
+/* FOOTER
+   ================================================== */
+.bg-footer {
+    background-color: #F5F5F5;
+    text-align: center;
+    margin-top:150px;
+}
+
+.bg-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bg-footer .fa {
+    color: #1BBC9B;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: solid 4px #1BBC9B;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 12px;
+    margin-right: 20px;
+    text-decoration: none;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+}
+
+.bg-footer .fa:hover {
+    background-color: #1BBC9B;
+    color: #F5F5F5;
+}
+
+@media (max-width:767px) {
+
+    .bg-footer {
+        border-width: 6px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .bg-footer .fa {
+        width: 50px;
+        height: 50px;
+        border: solid 2px #1BBC9B;
+        font-size: 30px;
+        padding-top: 8px;
+        margin-right: 10px;
+    }
+}
+
+/* FOOTER BOTTOM
+   ================================================== */
+.bg-footer-bottom {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.bg-footer-bottom p {
+    margin: 0;
+    padding: 0;
+    color: #22313F;
+    font-size: 15px;
+}
+
+@media (max-width:767px) {
+
+    .bg-footer-bottom .copyright {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+}
